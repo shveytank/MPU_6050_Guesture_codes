@@ -31,8 +31,8 @@ void loop()
   Serial.print("Axis X = ");
   Serial.print(data.X);
   Serial.print("  ");
-  Serial.print("Axis X = ");
-  Serial.println(data.X);
+  Serial.print("Axis Y = ");
+  Serial.println(data.Y);
    if (data.Y < 80) { //gesture : down 
     Serial.print("gesture 1");
     digitalWrite(LED_BUILTIN, LOW);
